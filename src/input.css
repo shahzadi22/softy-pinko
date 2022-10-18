@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.main{
+    background-image: url(../assets/images/banner-bg.png);
+    
+}
+.h2{
+    @apply  pb-4 capitalize font-normal max-w-md my-4 text-center  tracking-widest  text-2xl md:text-4xl md:max-w-xl
+}
+.p{
+    @apply  pb-16 max-w-md font-light leading-8 text-center text-sm tracking-normal md:max-w-md
+}
+.btn{
+    @apply max-w-xs text-sm text-white  rounded-full p-3 uppercase  cursor-pointer  my-6 bg-pink-600  hover:bg-purple-600
+}
+.imgsec{
+    background-image: url(../assets/images/work-process-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img-text{
+    @apply container bg-gray-100 mx-auto flex flex-col py-12  items-center  lg:flex-row
+}
+.div-h2{
+    @apply text-2xl font-light leading-10 my-6 lg:text-3xl max-w-lg
+}
+.div-p{
+    @apply  text-gray-500 tracking-wide leading-6 text-lg   max-w-lg   font-extralight lg:leading-8 lg:text-xl
+}
+.div-rocket{
+    @apply py-6 bg-white rounded-2xl text-center 
+}
+.img-rocket{
+    @apply mx-auto my-4
+}
+.h4-rocket{
+    @apply capitalize text-xl pb-2 font-light
+}
+.p-rocket{
+    @apply text-gray-500 text-sm leading-6 font-light
+}
+.div-chat{
+    @apply bg-white py-8 rounded-xl p-8
+}
+.p-chat{
+    @apply leading-6 text-gray-500 text-sm font-light py-4
+}
+.div-blog{
+    @apply rounded-xl items-center my-12
+}
+.h3-blog{
+    @apply   my-2 font-extrabold text-xl text-center
+}
+.p-blog{
+    @apply text-sm my-3  leading-8 font-light text-gray-500
+}
+.div-price{
+    @apply px-10 py-10  text-center bg-white rounded-xl
+}
+.h4-price{
+    @apply capitalize font-light text-xl  my-2
+}
+.li-p{
+    @apply text-sm my-2
+}
+.div-dollar{
+    @apply p-6 text-white rounded-2xl mb-4
+}
